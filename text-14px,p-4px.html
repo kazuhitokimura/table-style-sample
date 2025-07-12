@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>Table Style Sample</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/style.css" rel="stylesheet" />
+  </head>
+  <body class="flex flex-col w-full h-screen text-slate-950">
+    <header
+      class="py-1.5 px-2 w-full border-b border-slate-200 font-bold text-sm"
+    >
+      Table Style Sample
+    </header>
+    <div class="flex flex-1 flex-row min-h-0">
+      <nav
+        class="flex flex-col gap-2 w-40 py-4 px-2 border-r border-slate-200 text-slate-700"
+      >
+        <span class="font-bold text-sm">no button in tr</span>
+        <ul class="flex flex-col gap-2 text-sm">
+          <li class="w-full">
+            <a
+              href="/index.html"
+              class="break-words underline decoration-slate-200"
+              >text-16px,p-2px</a
+            >
+          </li>
+          <li class="w-full">
+            <a
+              href="/text-16px,p-4px.html"
+              class="break-words underline decoration-slate-200"
+              >text-16px,p-4px</a
+            >
+          </li>
+          <li class="w-full">
+            <a
+              href="/text-16px,p-6px.html"
+              class="break-words underline decoration-slate-200"
+              >text-16px,p-6px</a
+            >
+          </li>
+          <li class="w-full">
+            <a
+              href="/text-16px,p-8px.html"
+              class="break-words underline decoration-slate-200"
+              >text-16px,p-8px</a
+            >
+          </li>
+          <li class="w-full">
+            <a
+              href="/text-14px,p-2px.html"
+              class="break-words underline decoration-slate-200"
+              >text-14px,p-2px</a
+            >
+          </li>
+          <li class="w-full">
+            <a
+              href="/text-14px,p-4px.html"
+              class="break-words underline decoration-slate-200"
+              >text-14px,p-4px</a
+            >
+          </li>
+          <li class="w-full">
+            <a
+              href="/text-14px,p-6px.html"
+              class="break-words underline decoration-slate-200"
+              >text-14px,p-6px</a
+            >
+          </li>
+          <li class="w-full">
+            <a
+              href="/text-14px,p-8px.html"
+              class="break-words underline decoration-slate-200"
+              >text-14px,p-8px</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <main class="flex flex-col flex-auto px-5 py-3 overflow-y-auto min-h-0">
+        <h1 class="text-xl font-bold text-slate-950">text-14px,p-4px</h1>
+        <table class="w-full mt-1 text-sm">
+          <caption class="w-full text-left mb-2.5">
+            This table has text-14px,p-4px
+          </caption>
+          <thead>
+            <tr>
+              <th class="p-1 border border-slate-300 bg-slate-100 text-left">
+                Header 1
+              </th>
+              <th class="p-1 border border-slate-300 bg-slate-100 text-left">
+                Header 2
+              </th>
+              <th class="p-1 border border-slate-300 bg-slate-100 text-left">
+                Header 3
+              </th>
+              <th class="p-1 border border-slate-300 bg-slate-100 text-left">
+                Header 4
+              </th>
+              <th class="p-1 border border-slate-300 bg-slate-100 text-left">
+                Header 5
+              </th>
+              <th class="p-1 border border-slate-300 bg-slate-100 text-left">
+                Header 6
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr>
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr>
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+            <tr class="hover:bg-slate-50">
+              <td class="p-1 border border-slate-300 text-left">Cell 1</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 2</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 3</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 4</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 5</td>
+              <td class="p-1 border border-slate-300 text-left">Cell 6</td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+    </div>
+  </body>
+</html>
